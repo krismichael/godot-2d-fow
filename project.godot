@@ -19,6 +19,10 @@ config/name="Fog of War (Alpha 1.0.0)"
 run/main_scene="res://TESTING/world.tscn"
 config/icon="res://icon.png"
 
+[display]
+
+window/size/height=720
+
 [rendering]
 
 environment/default_environment="res://default_env.tres"

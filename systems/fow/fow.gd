@@ -26,9 +26,11 @@ var state = null
 func _on_fow_body_entered(body):
 
 	if !discovered:
+		animation.play("first")
 		discovered = true
 
-	animation.play("show")
+	else:
+		animation.play("show")
 
 
 #-------------------------
